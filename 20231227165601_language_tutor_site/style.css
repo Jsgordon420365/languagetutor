@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.language-selection button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.language-selection button#learnEnglish {
+    background-color: #007BFF; /* Blue for English */
+}
+
+.language-selection button#learnSpanish {
+    background-color: #FF5733; /* Red for Spanish */
+}
+
+.user-info {
+    margin-top: 20px;
+}
+
+.user-info input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.user-info button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
